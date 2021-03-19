@@ -1,0 +1,98 @@
+h1,h2,h3,h4,h5,h6{
+font-weight: 700;
+}
+a{
+    color: var(--primary);
+}
+a:hover{
+    color: var(--secundary)
+}
+.title{
+    text-transform: uppercase;
+}
+.subtitle{
+    color:var(--medium);
+    font-weight: 400;
+}
+.block{
+    margin-bottom: 120px;
+}
+
+.button{
+    text-transform: lowercase;
+    font-weight: 500;
+    padding-left: 1.4rem;
+    padding-right: 1.4rem;
+}
+.button-primary{
+    background-color: var(--primary);
+    border-color: var(--primary);
+}
+ 
+.button-primary:hover {
+    background-color: var(--secundary);
+    border-color: var(--secundary);
+
+}
+
+.button-primary-outline{
+    border-color: var(--primary);
+    color: var(--primary);
+}
+
+.button-primary-outline:hover {
+    background-color: var(--secundary);
+    border-color: var(--secundary);
+}
+
+#slider{
+    
+    background: url(../assets/slider-bg.svg)  ;
+    background-size: contain;
+}
+
+#slider h1{
+    text-transform: uppercase;
+   
+    font-weight: 900;
+}
+
+#slider h4{
+    font-size: 18px;
+    text-transform: uppercase;
+}
+ 
+#servicos a.destaque{
+    display: block;
+    background:var(--light);
+    border-radius: 5px;
+    text-align: center;
+    padding: 20px;
+    color: black;
+    text-decoration: none;
+    transition: all ease-out 0.2s;
+}
+
+#servicos a.destaque:hover{
+    background: #fff;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.12);
+    transform: scale(1.2);
+
+}
+
+#servicos p{
+    color: var(--dark);
+}
+
+#servicos a.destaque .img-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+#servicos a.destaque .img-container img{
+    max-height: 160px;
+ }
+
+ 
